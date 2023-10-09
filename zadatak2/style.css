@@ -1,0 +1,29 @@
+li {
+	background-color: aquamarine;
+}
+
+ul > li {
+	background-color: red;
+}
+
+ul > li:nth-child(2) {
+	background: yellow;
+}
+
+div > p:nth-child(1) {
+	font-size: 100px;
+}
+
+.table-two,
+th,
+td {
+	border: 2px solid green;
+}
+
+table > thead > tr {
+	background-color: orange;
+}
+
+tbody > tr > td:nth-child(1) {
+	background-color: orange;
+}
