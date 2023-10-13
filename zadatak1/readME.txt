@@ -8,5 +8,3 @@ napraviti css fajl, dodati ga preko linka u html fajl
 i poocu clasnih propertija koje cete dodati u html tagove 
 izmeniti backgroud color i dodati sirinu i visinu svim
 elementima koje ste napravili.
-
-
