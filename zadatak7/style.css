@@ -1,0 +1,71 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	background-color: #f2f2f2;
+}
+
+h1 {
+	color: #333;
+}
+
+form {
+	max-width: 300px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="birthdate"],
+input[type="email"] {
+	width: 50%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 1rem;
+}
+
+select[type="gender"] {
+	width: 30%;
+	padding: 0.5rem;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 1rem;
+}
+
+button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	padding: 0.5rem;
+	width: 8rem;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #555;
+}
+
+.container {
+	margin: auto;
+	height: 35rem;
+	width: 40%;
+	box-shadow: -1px 11px 51px 14px rgba(36, 36, 184, 0.63);
+	-webkit-box-shadow: -1px 11px 51px 14px rgba(36, 36, 184, 0.63);
+	-moz-box-shadow: -1px 11px 51px 14px rgba(36, 36, 184, 0.63);
+}
+
+/* 
+shadow-box generator 
+https://cssgenerator.org/box-shadow-css-generator.html
+ */
