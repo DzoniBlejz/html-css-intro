@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid black;
+	background-color: rgb(60, 209, 236);
+}
+
+a:hover {
+	background-color: gray;
+	opacity: 0.5;
+	color: gold;
+}
+
+a {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: black;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.linkovi {
+	width: 45%;
+	/* centriranje po sredini odozgo, i 0 sa desne strane */
+	/* margin: auto 0; */
+	/* ili */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
